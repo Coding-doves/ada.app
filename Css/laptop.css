@@ -1,0 +1,205 @@
+/*@media screen and (max-width: 992px)line 152*/
+
+
+
+
+@media screen and (max-width: 1000px){
+
+
+    .extra{
+        grid-gap: 45rem;
+    }
+     .left{
+         left: 130px;
+    }
+    .right{
+        right: 50px;
+    }
+    .nav{
+        
+        display:flex;
+        flex-direction:column;	
+    }
+    
+    #obi{
+        display: block;
+    }
+    
+    .logo{
+        display:flex;
+    
+    }
+    
+    .logo div{
+        flex:1;
+    }
+    
+    
+    .logo .mm {
+        display:flex;
+        justify-content:flex-end;
+        margin-right: 40px;
+    }
+    
+    
+    .lost{
+        display: none;
+    }
+    .lost ul{
+        display: inline-block;
+        width: 100%;
+        background: #fff;
+        text-align: center;
+    }
+    .lost ul li a{
+        color: black;
+    }
+
+    .lost ul li a:hover{
+        color: blue;
+        border-bottom: 1px solid white;
+    }
+    .lost li.active{
+        color:blue;
+        border-bottom: 1px solid white;
+    }
+    .drop-down{
+        width: 100%;
+        font-size: 13px;
+    }
+    .drop:hover .drop-down{
+        color: blue;
+    }
+    .text{
+        width: 100vw;
+    }
+    .txtx{
+        margin-top:13rem; 
+        margin-left: 50px;
+    }
+    .txt{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .butt{
+        height: 40px;
+        width: 205px;
+        margin-left: 3rem;
+        top: 24rem;
+        line-height: 10px;
+    }
+    .butt button{
+        height: 29px;
+        width: 29px;
+        margin-left: 10px;
+        line-height: 4px;
+    }
+    .transparent{
+        height: 38rem;
+        width: 100vw;
+    }
+    .slide{
+        height: 38rem;
+        width: 100vw;
+    }
+    .next{
+        height: 320px;
+        grid-gap:10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .next img{
+        height: 250px;
+        width: 250px;
+    }
+    .next2{
+        height: 430px;
+    }
+    #one img{
+        width: 200px;
+        height: 300px;
+    }
+    #two{
+        margin-top: 0px;
+    }
+    #tree img{
+        width: 200px;
+        height: 250px;
+    }
+    #tree span{
+        left: 6px;
+    }
+    .hot img{
+         margin-left: 80px;
+    }   
+       
+    .foot{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .foot li{
+        font-size: 13px;
+    }
+    .line{
+        max-width: 60rem;  
+    }
+    .footer span{
+        font-size: small;
+    }
+}
+
+    @media screen and (max-width: 992px){
+    .extra{
+        grid-gap: 42rem;
+    }
+    .next{
+        height: 300px;
+        grid-gap:10px;
+        margin-right: 40px;
+        font-size: 13px;
+    }
+    .hot img{
+        margin-left: 70px;
+    }
+    .hot{
+        font-size: 16px;
+    } 
+    .hot span{
+        font-size: 23px;
+    }
+    .foot{
+        height: 30rem;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 2fr;
+        grid-gap: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tee{
+        grid-column: 1/3;
+    }
+    .vee{
+        grid-column: 3/5;
+    }
+    .ree{
+        grid-column: 5/-1;
+    }
+    .bee{
+        grid-column: 1/6;
+    }
+    .foot button{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-left: 5rem;
+    }
+    .line{
+        max-width: 50rem;  
+    }
+    .footer span{
+        font-size: small;
+    }
+
+}
